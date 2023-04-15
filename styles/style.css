@@ -1,8 +1,27 @@
-body {
-    background-color: rgb(33, 112, 112);
-    background-image: url('planodefundo.jpg');
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    color:rgb(218, 68, 9);
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.cabecalho_menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.cabecalho_menu a{
+    text-decoration: none;
+    background-color: rgb(44, 42, 42);
+}
+
+main {
+    background-image: url(../assets/planodefundo.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
