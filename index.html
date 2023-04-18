@@ -4,48 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Rafael Andrade - Portfolio</title>
 </head>
 <body>
     <header>
         <section class="cabecalho">
             <div class="cabecalho_logo">
-                <img src="assets/arvore_logo_icone.png" alt="logo">
+                <img src="assets/logo_rafael_transparente_redimensionada.png" alt="logo">
             </div>
-            <div class="cabecalho_menu">
-                <a href="">Sobre mim</a>
-                <a href="">Projetos</a>
-                <a href="">Conhecimentos</a>
-                <a href="">Contato</a>
-            </div>
+            <nav class="cabecalho_menu">
+                <a href="#sobremim">Sobre mim</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#conhecimentos">Conhecimentos</a>
+                <a href="#contato">Contato</a>
+            </nav>
         </section>
     </header>
 
     <main>
         <section class="conteudo">
-            <div class="conteudo_sobremim">
+            <div class="conteudo_bloco" id="sobremim">
+                <img src="" alt="Foto Rafael">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repudiandae tempora et vel necessitatibus id voluptatibus error eum similique! Voluptate maiores magnam labore neque iusto, suscipit ad voluptatem voluptates quaerat!</p>
             </div>
 
-            <div class="conteudo_projetos">
+            <div class="conteudo_bloco" id="projetos">
+                <div class="projeto">
+                    <img src="assets/foto_site_vidaselvagem_redimensionada.png" alt="Print projeto 1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis esse accusantium quo eligendi nobis soluta! Ipsa inventore, possimus nulla quam laudantium architecto aspernatur magni assumenda temporibus ab soluta sed.</p>
+                </div>
+                <div class="projeto">
+                    <img src="" alt="Print projeto 2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis esse accusantium quo eligendi nobis soluta! Ipsa inventore, possimus nulla quam laudantium architecto aspernatur magni assumenda temporibus ab soluta sed.</p>
+                </div>
+            </div>
+
+            <div class="conteudo_bloco" id="conhecimentos">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis esse accusantium quo eligendi nobis soluta! Ipsa inventore, possimus nulla quam laudantium architecto aspernatur magni assumenda temporibus ab soluta sed.</p>
             </div>
 
-            <div class="conteudo_conhecimentos">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis esse accusantium quo eligendi nobis soluta! Ipsa inventore, possimus nulla quam laudantium architecto aspernatur magni assumenda temporibus ab soluta sed.</p>
-            </div>
-
-            <div class="conteudo_contato">
+            <div class="conteudo_bloco" id="contato">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis esse accusantium quo eligendi nobis soluta! Ipsa inventore, possimus nulla quam laudantium architecto aspernatur magni assumenda temporibus ab soluta sed.</p>
             </div>
         </section>
     </main>
 
     <footer>
-        <div>
-            Conteúdo do footer
+        <div class="rodape">
+            Rafael Andrade - Portfolio
         </div>
     </footer>
 </body>

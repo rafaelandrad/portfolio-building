@@ -1,15 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+
+}
+
+main {
+    margin: 10%;
+}
+
 .cabecalho {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
+    margin: 0% 15% 0% 5%;
 }
 
 .cabecalho_menu {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
     gap: 5%;
 }
 
@@ -22,11 +33,14 @@
     white-space: nowrap;
 }
 
-body {
-    background-image: url(../assets/planodefundo.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    color: white;
+.rodape {
+    text-align: center;
+}
+
+.projeto {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
