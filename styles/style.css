@@ -16,12 +16,17 @@
 .cabecalho_menu a{
     text-decoration: none;
     background-color: rgb(44, 42, 42);
+    color: white;
+    border-radius: 5px;
+    padding: 5%;
+    white-space: nowrap;
 }
 
-main {
+body {
     background-image: url(../assets/planodefundo.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    color: white;
 }
 
